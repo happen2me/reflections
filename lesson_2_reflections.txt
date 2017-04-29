@@ -1,0 +1,35 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    >Git won't creat a commit, because you might not want to, and you are not able to write comments at this time.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    >Staging area is like a buffer space, you haven't make all the changes, but part of it is already done. working directory is physic working space, while repository act as a manager.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    >Whenever you make a logic change, add it to stage area.#我也不是很清楚。
+    >Add all the files related to the logic change to stage area, then commit it.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    >When I want to add a experimental feature or make some other changes without affecting the master branch.
+    >Branch can seperate another space to work without affecting main branch.
+
+How do the diagrams help you visualize the branch structure?
+
+    >You can clearly see the entire structure of the project by using git log --graph (--oneline) branchName. The way the project developed is shown.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    >All new features are automaticlly(manually if conflict) combined in the new merged master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+
+    >Automatic merging can olny merge part that definately right. It's easy to operate.
+    >Allow to merge manaully can let man decide how to solve to conflict to the ideal state.
+
+Notes:
+你也可以通过命令行指定提交信息，即运行 git commit -m "Commit message"
