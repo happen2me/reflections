@@ -1,3 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
     >When you are not before your PC like using a mobile device or just make a small change like modify readme.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    >Because a change may includes several commits, you might not want to make it public before you finish it.
